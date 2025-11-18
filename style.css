@@ -1,0 +1,81 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+body{
+    margin: 25px;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.header2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.searchbar{
+    width: 30%;
+    margin-left: 5%;
+}
+.header2 input, select, .lupa{
+    margin: 1px;
+    background: none;
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px
+}
+.header2 .lupa{
+    background-color: blue;
+    border-color: darkblue;
+    color: white;
+    width: 40px;
+}
+.grejbaton{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    margin: 5px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+}
+#obrazproduktu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 300px;
+}
+#opisproduktu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+#kupowanie{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 34%;
+    height: 300px;
+}
+#obrazek{
+    height: 100%;
+}
+#kup{
+    width: 200px;
+    height: 100px;
+    background-color: darkblue;
+    border: 5px solid rgb(0, 0, 70);
+    border-radius: 25px;
+}

@@ -1,0 +1,1431 @@
+{
+    "body": {
+        "benchmarkProductCode": "TELKOM16506212321167998",
+        "gtm": "{\n    \"event\": \"ga.hit\",\n    \"hitType\": \"pageview\",\n    \"pageCategory\": \"Produkt\",\n    \"userId\": null,\n    \"userLogged\": false,\n    \"productCategories\": [\n        \"Telefony i Smartwatche\",\n        \"Telefony i Smartfony\"\n    ],\n    \"ecommerce\": {\n        \"currencyCode\": \"PLN\",\n        \"detail\": {\n            \"products\": [\n                {\n                    \"name\": \"Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade\",\n                    \"id\": \"984856\",\n                    \"price\": \"5499\",\n                    \"brand\": \"Google\",\n                    \"category\": \"Telefony i Smartfony\",\n                    \"variant\": \"\",\n                    \"systemCode\": \"GS-T-GOE-0177\",\n                    \"vendorCode\": \"GA10432-GB\",\n                    \"availability\": \"unavailable\"\n                }\n            ]\n        }\n    }\n}"
+    },
+    "head": {
+        "title": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade (Telefon) - cena, raty - sklep Komputronik.pl",
+        "tags": [
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:type"
+                    },
+                    {
+                        "name": "content",
+                        "content": "website"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:url"
+                    },
+                    {
+                        "name": "content",
+                        "content": "https:\/\/www.komputronik.pl\/product\/984856\/telefon-google-pixel-10-pro-xl-5g-16-256gb-dual-sim-jade.html"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "product:retailer_part_no"
+                    },
+                    {
+                        "name": "content",
+                        "content": "984856"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:title"
+                    },
+                    {
+                        "name": "content",
+                        "content": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade (Telefon) - cena, raty - sklep Komputronik.pl"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:description"
+                    },
+                    {
+                        "name": "content",
+                        "content": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:image"
+                    },
+                    {
+                        "name": "content",
+                        "content": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-1.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:image:secure_url"
+                    },
+                    {
+                        "name": "content",
+                        "content": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-1.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "property",
+                        "content": "og:image:type"
+                    },
+                    {
+                        "name": "content",
+                        "content": "image\/png"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "description"
+                    },
+                    {
+                        "name": "content",
+                        "content": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade - \u2714\ufe0f \u015awietne ceny, \u2714\ufe0f zakupy na raty, \u2714\ufe0f opinie, \u2714\ufe0f specyfikacja, \u2714\ufe0f darmowa dostawa i odbi\u00f3r w sklepach Komputronik!"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "robots"
+                    },
+                    {
+                        "name": "content",
+                        "content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "revisit-after"
+                    },
+                    {
+                        "name": "content",
+                        "content": "1 day"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "language"
+                    },
+                    {
+                        "name": "content",
+                        "content": "pl"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "p:domain_verify"
+                    },
+                    {
+                        "name": "content",
+                        "content": "0225626a2a8d1dc46f63304cf920ca95"
+                    }
+                ]
+            },
+            {
+                "type": "meta",
+                "attributes": [
+                    {
+                        "name": "name",
+                        "content": "facebook-domain-verification"
+                    },
+                    {
+                        "name": "content",
+                        "content": "oa18gsotx2fhvl9q7yzyidytgsyao5"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "canonical"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/www.komputronik.pl\/product\/984856\/telefon-google-pixel-10-pro-xl-5g-16-256gb-dual-sim-jade.html"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/front.komputronik.pl"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/web.snrbox.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/nc-cms.komputronik.pl"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/cookie-cdn.cookiepro.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/static.komputronik.pl"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/media.komputronik.pl"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/unpkg.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/ade.googlesyndication.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/www.google-analytics.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/fonts.gstatic.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/www.googletagmanager.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/fonts.googleapis.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/bam-cell.nr-data.net"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/www.snrcdn.net"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/api.ipify.org"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/js-agent.newrelic.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/ajax.cloudflare.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/proxy.synerise.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/pagead2.googlesyndication.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/geolocation.onetrust.com"
+                    }
+                ]
+            },
+            {
+                "type": "link",
+                "attributes": [
+                    {
+                        "name": "rel",
+                        "content": "dns-prefetch"
+                    },
+                    {
+                        "name": "href",
+                        "content": "https:\/\/connect.facebook.net"
+                    }
+                ]
+            }
+        ],
+        "richSnippets": {
+            "breadcrumb": "{\n    \"@context\": \"https:\/\/schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n        {\n            \"@type\": \"listItem\",\n            \"position\": 0,\n            \"item\": {\n                \"@id\": \"https:\/\/www.komputronik.pl\/category\/9434\/telefony-i-smartwatche.html\",\n                \"name\": \"Telefony i Smartwatche\"\n            }\n        },\n        {\n            \"@type\": \"listItem\",\n            \"position\": 1,\n            \"item\": {\n                \"@id\": \"https:\/\/www.komputronik.pl\/category\/1596\/telefony.html\",\n                \"name\": \"Telefony i Smartfony\"\n            }\n        },\n        {\n            \"@type\": \"listItem\",\n            \"position\": 2,\n            \"item\": {\n                \"@id\": \"https:\/\/www.komputronik.pl\/category\/1596\/telefony,google.html\",\n                \"name\": \"Telefony Google Pixel\"\n            }\n        }\n    ]\n}",
+            "product": "{\n    \"@context\": \"https:\/\/schema.org\",\n    \"@type\": \"Product\",\n    \"name\": \"Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade\",\n    \"sku\": \"GS-T-GOE-0177\",\n    \"image\": \"https:\/\/static.komputronik.pl\/product-picture\/5\/TELKOM16506212321167998-1.jpg\",\n    \"mpn\": \"GA10432-GB\",\n    \"gtin13\": \"0840353927742\",\n    \"description\": \"Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade - \\u015bwietne ceny, mo\\u017cliwo\\u015b\\u0107 zakupu na raty, dostawa i odbi\\u00f3r w sklepach Komputronik za darmo!\",\n    \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Google\"\n    },\n    \"aggregateRating\": {\n        \"@type\": \"AggregateRating\",\n        \"ratingValue\": 5,\n        \"reviewCount\": 3\n    },\n    \"offers\": {\n        \"@type\": \"Offer\",\n        \"price\": 5499,\n        \"priceCurrency\": \"PLN\",\n        \"priceValidUntil\": \"2025-11-24\",\n        \"itemCondition\": \"https:\/\/schema.org\/NewCondition\",\n        \"availability\": \"https:\/\/schema.org\/InStock\",\n        \"url\": \"https:\/\/www.komputronik.pl\/product\/984856\/telefon-google-pixel-10-pro-xl-5g-16-256gb-dual-sim-jade.html\"\n    }\n}"
+        }
+    },
+    "breadcrumbs": [
+        {
+            "name": "Strona g\u0142\u00f3wna",
+            "uri": {
+                "url": "\/"
+            }
+        },
+        {
+            "name": "Telefony i Smartwatche",
+            "uri": {
+                "url": "\/category\/9434\/telefony-i-smartwatche.html"
+            }
+        },
+        {
+            "name": "Telefony i Smartfony",
+            "uri": {
+                "url": "\/category\/1596\/telefony.html"
+            }
+        },
+        {
+            "name": "Telefony Google Pixel",
+            "uri": {
+                "url": "\/category\/1596\/telefony,google.html"
+            }
+        }
+    ],
+    "basicInfo": {
+        "objectType": "Smartfony",
+        "name": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade",
+        "id": 984856,
+        "productType": "produkt bazowy",
+        "itemVariant": "",
+        "affiliation": "komputronik.pl",
+        "currency": "PLN",
+        "freeShipping": "brak darmowej dostawy",
+        "allPromos": "",
+        "quantity": 1,
+        "isBuyActive": false,
+        "isActive": true,
+        "hasPromotions": false,
+        "infoLabelsCount": 0,
+        "isInpostPayAvailable": false,
+        "isArchived": false,
+        "hasOutlet": false,
+        "filesCount": 0,
+        "showExpertRecommendation": false,
+        "codes": [
+            {
+                "code": "GS-T-GOE-0177",
+                "type": "max"
+            },
+            {
+                "code": "0840353927742",
+                "type": "ean"
+            },
+            {
+                "code": "GA10432-GB",
+                "type": "vendor"
+            }
+        ],
+        "producerName": "Google",
+        "categories": {
+            "itemCategory": "Telefony i Smartwatche",
+            "itemCategory2": "Telefony i Smartfony",
+            "itemCategory3": "",
+            "itemCategory4": "",
+            "itemCategory5": ""
+        }
+    },
+    "codes": [
+        {
+            "code": "GA10432-GB",
+            "label": "Kod producenta",
+            "type": "vendor"
+        },
+        {
+            "code": "GS-T-GOE-0177",
+            "label": "Kod systemowy",
+            "type": "max"
+        },
+        {
+            "code": "0840353927742",
+            "label": "Kod EAN",
+            "type": "ean"
+        }
+    ],
+    "producerLogo": {
+        "uri": {
+            "url": "\/producer\/2281\/google.html"
+        },
+        "title": "Google",
+        "hasVisibleProducts": true,
+        "image": {
+            "url": "https:\/\/media.komputronik.pl\/producerLogo\/goe.png"
+        }
+    },
+    "price": {
+        "hasDiscount": false,
+        "type": "gross",
+        "final": {
+            "gross": {
+                "raw": 5499,
+                "formatted": "5\u00a0499 z\u0142"
+            },
+            "net": {
+                "raw": 4470.73,
+                "formatted": "4\u00a0470,73 z\u0142"
+            }
+        },
+        "isHidden": false,
+        "quantity": 1,
+        "singleQuantityPrice": {
+            "gross": {
+                "raw": 5499,
+                "formatted": "5\u00a0499 z\u0142"
+            }
+        }
+    },
+    "additionalInfo": [
+        {
+            "name": "Towar niedost\u0119pny",
+            "type": "statusAvailable",
+            "isMandatory": true,
+            "cta": {
+                "label": ""
+            },
+            "isNameHighlighted": true
+        }
+    ],
+    "gallery": {
+        "pictures": [
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-1.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-1.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-1.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-1.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-2.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-2.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-2.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-2.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-3.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-3.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-3.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-3.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-4.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-4.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-4.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-4.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-5.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-5.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-5.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-5.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-6.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-6.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-6.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-6.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-7.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-7.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-7.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-7.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-8.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-8.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-8.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-8.jpg"
+                }
+            },
+            {
+                "sizeS": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-9.jpg"
+                },
+                "sizeM": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/10\/TELKOM16506212321167998-9.jpg"
+                },
+                "sizeL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-9.jpg"
+                },
+                "sizeXL": {
+                    "url": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-9.jpg"
+                }
+            }
+        ]
+    },
+    "specification": [
+        {
+            "name": "Dane techniczne",
+            "attributes": [
+                {
+                    "name": "Producent",
+                    "values": [
+                        {
+                            "name": "Google",
+                            "uri": {
+                                "url": "\/producer\/2281\/google.html"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Gwarancja",
+                    "values": [
+                        {
+                            "name": "2 lata w serwisie sprzedawcy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupa produktowa",
+                    "values": [
+                        {
+                            "name": "Telefony Google Pixel",
+                            "uri": {
+                                "url": "\/category\/1596\/telefony,google.html"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Rodzaj produktu",
+                    "values": [
+                        {
+                            "name": "smartfon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Stan",
+                    "values": [
+                        {
+                            "name": "nowy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pami\u0119\u0107 Flash",
+                    "values": [
+                        {
+                            "name": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "name": "System operacyjny",
+                    "values": [
+                        {
+                            "name": "Android 16"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rodzaj obudowy",
+                    "values": [
+                        {
+                            "name": "jednobry\u0142owa"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technologia AI",
+                    "values": [
+                        {
+                            "name": "Google AI"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wy\u015bwietlacz",
+            "attributes": [
+                {
+                    "name": "Przek\u0105tna wy\u015bwietlacza",
+                    "values": [
+                        {
+                            "name": "6.8 cale"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technologia wykonania",
+                    "values": [
+                        {
+                            "name": "OLED"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wprowadzanie danych",
+                    "values": [
+                        {
+                            "name": "ekran dotykowy",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/telefony-dotykowe"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Rozdzielczo\u015b\u0107",
+                    "values": [
+                        {
+                            "name": "2992 x 1344 piksele"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cz\u0119stotliwo\u015b\u0107 od\u015bwie\u017cania",
+                    "values": [
+                        {
+                            "name": "120 Hz"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ilo\u015b\u0107 wy\u015bwietlanych kolor\u00f3w",
+                    "values": [
+                        {
+                            "name": "16 mln"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "System operacyjny",
+            "attributes": [
+                {
+                    "name": "Platforma",
+                    "values": [
+                        {
+                            "name": "Android",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/telefony-android"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aparat",
+            "attributes": [
+                {
+                    "name": "Aparat fotograficzny z ty\u0142u",
+                    "values": [
+                        {
+                            "name": "50 Mpix"
+                        }
+                    ]
+                },
+                {
+                    "name": "Drugi aparat z ty\u0142u",
+                    "values": [
+                        {
+                            "name": "48 Mpix"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trzeci aparat fotograficzny z ty\u0142u",
+                    "values": [
+                        {
+                            "name": "48 Mpix"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aparat fotograficzny z przodu",
+                    "values": [
+                        {
+                            "name": "42 Mpix"
+                        }
+                    ]
+                },
+                {
+                    "name": "Lampa b\u0142yskowa",
+                    "values": [
+                        {
+                            "name": "LED"
+                        }
+                    ]
+                },
+                {
+                    "name": "Zoom optyczny",
+                    "values": [
+                        {
+                            "name": "5 x"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pami\u0119\u0107",
+            "attributes": [
+                {
+                    "name": "Pami\u0119\u0107 RAM",
+                    "values": [
+                        {
+                            "name": "16 GB"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Procesor",
+            "attributes": [
+                {
+                    "name": "Model procesora",
+                    "values": [
+                        {
+                            "name": "Google Tensor G5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cz\u0119stotliwo\u015b\u0107 taktowania",
+                    "values": [
+                        {
+                            "name": "3100 MHz (1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz)"
+                        }
+                    ]
+                },
+                {
+                    "name": "Liczba rdzeni",
+                    "values": [
+                        {
+                            "name": "8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Komunikacja",
+            "attributes": [
+                {
+                    "name": "Transmisja danych",
+                    "values": [
+                        {
+                            "name": "4G LTE",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-4g-lte"
+                            }
+                        },
+                        {
+                            "name": "5G",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-5g"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Komunikacja",
+                    "values": [
+                        {
+                            "name": "Bluetooth 6.0"
+                        },
+                        {
+                            "name": "NFC (Near Field Communication)",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-nfc"
+                            }
+                        },
+                        {
+                            "name": "Wi-Fi"
+                        }
+                    ]
+                },
+                {
+                    "name": "Z\u0142\u0105cza",
+                    "values": [
+                        {
+                            "name": "USB (Typ C)",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-usb-c"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Multimedia",
+            "attributes": [
+                {
+                    "name": "Nagrywanie film\u00f3w",
+                    "values": [
+                        {
+                            "name": "8K"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bateria",
+            "attributes": [
+                {
+                    "name": "Zastosowany akumulator",
+                    "values": [
+                        {
+                            "name": "litowo-jonowy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pojemno\u015b\u0107 akumulatora",
+                    "values": [
+                        {
+                            "name": "5200 mAh"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trwa\u0142o\u015b\u0107 baterii",
+                    "values": [
+                        {
+                            "name": "1000 cykli"
+                        }
+                    ]
+                },
+                {
+                    "name": "Minimalna moc \u0142adowania",
+                    "values": [
+                        {
+                            "name": "7.5 W"
+                        }
+                    ]
+                },
+                {
+                    "name": "Maksymalna moc \u0142adowania",
+                    "values": [
+                        {
+                            "name": "45 W"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wygl\u0105d",
+            "attributes": [
+                {
+                    "name": "Kolor",
+                    "values": [
+                        {
+                            "name": "zielony"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wymiary",
+                    "values": [
+                        {
+                            "name": "162.8 x 76.6 x 8.5 mm"
+                        }
+                    ]
+                },
+                {
+                    "name": "Waga",
+                    "values": [
+                        {
+                            "name": "232 g"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wyposa\u017cenie",
+            "attributes": [
+                {
+                    "name": "\u0141adowarka w zestawie",
+                    "values": [
+                        {
+                            "name": "brak"
+                        }
+                    ]
+                },
+                {
+                    "name": "Zestaw s\u0142uchawkowy w zestawie",
+                    "values": [
+                        {
+                            "name": "brak"
+                        }
+                    ]
+                },
+                {
+                    "name": "Akcesoria w zestawie",
+                    "values": [
+                        {
+                            "name": "ig\u0142a SIM"
+                        },
+                        {
+                            "name": "kabel USB typ C"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pozosta\u0142e cechy",
+            "attributes": [
+                {
+                    "name": "Dual SIM",
+                    "values": [
+                        {
+                            "name": "tak",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-dual-sim"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Rodzaj Dual SIM",
+                    "values": [
+                        {
+                            "name": "SIM + eSIM"
+                        }
+                    ]
+                },
+                {
+                    "name": "Czujniki i komponenty",
+                    "values": [
+                        {
+                            "name": "akcelerometr"
+                        },
+                        {
+                            "name": "barometr"
+                        },
+                        {
+                            "name": "czujnik \u015bwiat\u0142a"
+                        },
+                        {
+                            "name": "czujnik zbli\u017ceniowy"
+                        },
+                        {
+                            "name": "czytnik linii papilarnych",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-czytnikiem-linii-papilarnych"
+                            }
+                        },
+                        {
+                            "name": "GPS"
+                        },
+                        {
+                            "name": "GPS + Beidou"
+                        },
+                        {
+                            "name": "GPS + GLONASS"
+                        },
+                        {
+                            "name": "GPS QZSS"
+                        },
+                        {
+                            "name": "magnetometr"
+                        },
+                        {
+                            "name": "technologia szybkiego \u0142adowania"
+                        },
+                        {
+                            "name": "\u017cyroskop"
+                        }
+                    ]
+                },
+                {
+                    "name": "Model",
+                    "values": [
+                        {
+                            "name": "Google Pixel 10 Pro XL 5G"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Efektywno\u015b\u0107 energetyczna",
+            "attributes": [
+                {
+                    "name": "Klasa energetyczna",
+                    "values": [
+                        {
+                            "name": "B"
+                        }
+                    ]
+                },
+                {
+                    "name": "Odporno\u015b\u0107 na upadki",
+                    "values": [
+                        {
+                            "name": "A"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mo\u017cliwo\u015b\u0107 naprawy",
+                    "values": [
+                        {
+                            "name": "B"
+                        }
+                    ]
+                },
+                {
+                    "name": "Py\u0142oszczelno\u015b\u0107 i wodoszczelno\u015b\u0107",
+                    "values": [
+                        {
+                            "name": "IP68",
+                            "uri": {
+                                "url": "\/search-filter\/1596\/smartfony-z-ip68"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Producent",
+            "attributes": [
+                {
+                    "name": "Nazwa producenta \/ importera",
+                    "values": [
+                        {
+                            "name": "<span id=\"id\">Google<\/span><br>\n                <span id=\"name\">Google Ireland Limited<\/span><br>\n                <span id=\"street\">Gordon House, Barrow Street<\/span><br>\n                <span id=\"postalCode\">D04 V4X7<\/span> <span id=\"city\">Dublin 4<\/span><br>\n                <span id=\"country\">Irlandia<\/span><br>\n                <span id=\"countryCode\">IE<\/span><br>\n                <span id=\"email\">Email: support@google.com<\/span>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rating": {
+        "score": 5,
+        "count": 3
+    },
+    "installmentsBanner": {
+        "name": "Pobierz aplilacj\u0119",
+        "mobileImage": {
+            "url": "https:\/\/static.komputronik.pl\/banners\/kt-app2_b2e478bb7332a190a9c651a64c59b468.png",
+            "alt": "Pobierz aplilacj\u0119"
+        },
+        "bannerId": 43737,
+        "title": "",
+        "cta": {
+            "uri": {
+                "url": "\/bannerClick\/index\/id\/43737"
+            },
+            "label": "Aplikacja mobilna"
+        },
+        "label": "Pobierz aplilacj\u0119",
+        "desktopImage": {
+            "url": "https:\/\/static.komputronik.pl\/banners\/kt-app1_b2e478bb7332a190a9c651a64c59b468.png",
+            "alt": "Pobierz aplilacj\u0119"
+        },
+        "promotionId": "d263db9fdd2a3d4d62fb30b484c4d289"
+    },
+    "descriptions": {
+        "seo": "<div class=\"col-3-3 cc-mobile\"><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-1.jpg\"><\/div><div class=\"col-3-5 cc-mobile-1\"><p>Google Pixel 10 Pro XL <a href='https:\/\/www.komputronik.pl\/search-filter\/1596\/smartfony-z-5g' title='5G - zobacz wi\u0119cej produkt\u00f3w' target='_blank'>5G<\/a> stanowi now\u0105 jako\u015b\u0107 w mobilnym \u015bwiecie. To urz\u0105dzenie \u0142\u0105cz\u0105ce unikalny design w odcieniu g\u0142\u0119bokiego jadu z wysok\u0105 moc\u0105 obliczeniow\u0105 oraz funkcjami, kt\u00f3re u\u0142atwi\u0105 Twoje codzienne dzia\u0142ania i rozbudz\u0105 kreatywno\u015b\u0107.<\/p><\/div><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3\"><h3>Google Pixel 10 Pro XL 5G 16\/256GB <a href='https:\/\/www.komputronik.pl\/search-filter\/1596\/smartfony-z-dual-sim' title='Dual SIM - zobacz wi\u0119cej produkt\u00f3w' target='_blank'>Dual SIM<\/a> Jade - odkryj mobilne mo\u017cliwo\u015bci!<\/h3><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3 cc-mobile bg-gray-porcelain rounded-2xl\"><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-2.jpg\"><\/div><div class=\"col-3-5 cc-mobile-1\"><h4>Wyrazisty wy\u015bwietlacz<\/h4><p>Zachwy\u0107 si\u0119 szczeg\u00f3\u0142owo\u015bci\u0105 obrazu na przestronnym, 6.8-calowym ekranie OLED. Rozdzielczo\u015b\u0107 2992 x 1344 piksele sprawia, \u017ce tre\u015bci s\u0105 wyj\u0105tkowo ostre, a cz\u0119stotliwo\u015b\u0107 od\u015bwie\u017cania 120 Hz to p\u0142ynno\u015b\u0107 animacji i komfort przegl\u0105dania. Dzi\u0119ki bogatej palecie 16 milion\u00f3w kolor\u00f3w, filmy, zdj\u0119cia i gry zyskuj\u0105 na g\u0142\u0119bi, oferuj\u0105c wci\u0105gaj\u0105ce wra\u017cenia wizualne.<\/p><\/div><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3 cc-mobile bg-gray-porcelain rounded-2xl\"><div class=\"col-3-5 cc-mobile-1\"><h4>Efektywna moc dzia\u0142ania<\/h4><p>Podstaw\u0105 wydajno\u015bci tego smartfona jest autorski procesor Google Tensor G5. Jego osiem rdzeni, taktowanych z cz\u0119stotliwo\u015bci\u0105 do 3.1 GHz, umo\u017cliwia b\u0142yskawiczne reagowanie na polecenia i sprawn\u0105 realizacj\u0119 zada\u0144. Du\u017ca pami\u0119\u0107 RAM o pojemno\u015bci 16 GB wspiera p\u0142ynn\u0105 wielozadaniowo\u015b\u0107, pozwalaj\u0105c na swobodne prze\u0142\u0105czanie si\u0119 mi\u0119dzy aplikacjami. Z 256 GB pami\u0119ci flash przechowasz wszelkie pliki, maj\u0105c do nich szybki dost\u0119p. System Android 16, wzbogacony o Google AI, dzia\u0142a jak osobisty asystent, oferuj\u0105c intuicyjn\u0105 obs\u0142ug\u0119 i inteligentne rozwi\u0105zania, kt\u00f3re usprawni\u0105 Tw\u00f3j dzie\u0144.<\/p><\/div><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-3.jpg\"><\/div><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3 cc-mobile bg-gray-porcelain rounded-2xl\"><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-4.jpg\"><\/div><div class=\"col-3-5 cc-mobile-1\"><h4>Tw\u00f3rz zachwycaj\u0105ce zdj\u0119cia i wideo<\/h4><p>Rejestruj momenty z wysok\u0105 precyzj\u0105. Zaawansowany zestaw tylnych aparat\u00f3w, z g\u0142\u00f3wnym obiektywem 50 Mpix i dwoma dodatkowymi 48 Mpix, pozwala na tworzenie szczeg\u00f3\u0142owych uj\u0119\u0107 w r\u00f3\u017cnorodnych warunkach o\u015bwietleniowych. Zoom optyczny 5x przybli\u017ca odleg\u0142e obiekty, zachowuj\u0105c ich detale, a lampa b\u0142yskowa LED rozja\u015bnia ciemne sceny. Przedni aparat 42 Mpix sprawi, \u017ce Twoje <a href='https:\/\/www.komputronik.pl\/search-filter\/1770\/kijki-do-selfie' title='selfie - zobacz wi\u0119cej produkt\u00f3w' target='_blank'>selfie<\/a> b\u0119d\u0105 wyra\u017ane i pe\u0142ne detali. Filmy w rozdzielczo\u015bci 8K pozwalaj\u0105 na tworzenie materia\u0142\u00f3w o kinowej jako\u015bci, charakteryzuj\u0105cych si\u0119 bogactwem szczeg\u00f3\u0142\u00f3w i dynamik\u0105.<\/p><\/div><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3 cc-mobile bg-gray-porcelain rounded-2xl\"><div class=\"col-3-5 cc-mobile-1\"><h4>Zasilanie na ca\u0142y dzie\u0144 i szybkie \u0142adowanie<\/h4><p>Ciesz si\u0119 d\u0142ugim czasem pracy urz\u0105dzenia. Pojemna bateria litowo-jonowa 5200 mAh dostarcza energi\u0119 na ca\u0142y, aktywny dzie\u0144, od porannych aktywno\u015bci po wieczorny relaks. Dzi\u0119ki technologii szybkiego \u0142adowania o mocy 45 W, <a href='https:\/\/www.komputronik.pl\/category\/1596\/telefony.html' title='telefon - zobacz wi\u0119cej produkt\u00f3w' target='_blank'>telefon<\/a> szybko odzyskuje pe\u0142n\u0105 moc. Z deklarowan\u0105 trwa\u0142o\u015bci\u0105 baterii na poziomie 1000 cykli mo\u017cesz liczy\u0107 na jej d\u0142ugie i efektywne u\u017cytkowanie.<\/p><\/div><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-5.jpg\"><\/div><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"col-3-3 cc-mobile bg-gray-porcelain rounded-2xl\"><div class=\"col-2-5 cc-mobile-2\"><img loading=\"lazy\"  class=\"left\" alt=\"\"\/ src=\"https:\/\/static.komputronik.pl\/product-picture\/6\/TELKOM16506212321167998-6.jpg\"><\/div><div class=\"col-3-5 cc-mobile-1\"><h4>Wyrafinowany wygl\u0105d i solidna konstrukcja<\/h4><p>Google Pixel 10 Pro XL 5G prezentuje si\u0119 w eleganckiej, jednobry\u0142owej obudowie w zielonym odcieniu Jade. Wymiary 162.8 x 76.6 x 8.5 mm i waga 232 g sprawiaj\u0105, \u017ce telefon komfortowo le\u017cy w d\u0142oni, nawet podczas d\u0142u\u017cszego korzystania. Potwierdzona certyfikatem <a href='https:\/\/www.komputronik.pl\/informacje\/co-to-jest-ip67-i-ip68\/' title='IP68 - zobacz wi\u0119cej produkt\u00f3w' target='_blank'>IP68<\/a> odporno\u015b\u0107 na py\u0142 i skutki zanurzenia w wodzie pozwala na bezproblemowe u\u017cytkowanie urz\u0105dzenia w zr\u00f3\u017cnicowanych \u015brodowiskach.<\/p><\/div><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div><div class=\"separator short\"><\/div>",
+        "richSnippet": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade - \u015bwietne ceny, mo\u017cliwo\u015b\u0107 zakupu na raty, dostawa i odbi\u00f3r w sklepach Komputronik za darmo!",
+        "isNewDescProducer": false
+    },
+    "comments": {
+        "comments": [],
+        "stats": [
+            {
+                "score": 5,
+                "percent": 100,
+                "value": 3
+            },
+            {
+                "score": 4,
+                "percent": 0,
+                "value": 0
+            },
+            {
+                "score": 3,
+                "percent": 0,
+                "value": 0
+            },
+            {
+                "score": 2,
+                "percent": 0,
+                "value": 0
+            },
+            {
+                "score": 1,
+                "percent": 0,
+                "value": 0
+            }
+        ],
+        "loadMore": true
+    },
+    "technologyInformation": {
+        "energyLabel": {
+            "icon": {
+                "url": "https:\/\/media.komputronik.pl\/pl-komputronik\/svg\/energy-labels\/B.svg",
+                "alt": "B"
+            }
+        }
+    },
+    "feedinkInfo": {
+        "name": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade",
+        "prSize": "",
+        "isElectronicLicence": 0,
+        "toCeneo": 1,
+        "ceneoDescription": "",
+        "picture": "https:\/\/static.komputronik.pl\/product-picture\/4\/TELKOM16506212321167998-1.jpg",
+        "comments": {
+            "percent": 100,
+            "score": 5,
+            "maxScore": 5,
+            "count": 3
+        },
+        "price": {
+            "hasPromotion": false,
+            "excludeCeneo": false,
+            "priceBaseGross": "5\u00a0499 z\u0142",
+            "priceBaseNet": "4\u00a0470,73 z\u0142",
+            "priceGross": "5\u00a0499 z\u0142",
+            "priceNet": "4\u00a0470,73 z\u0142",
+            "isHidden": false
+        },
+        "a0": 0,
+        "hi": 0,
+        "sp": 0,
+        "tb": 0,
+        "modyfikowany": 0
+    },
+    "syneriseTags": [
+        {
+            "name": "og:type",
+            "content": "product"
+        },
+        {
+            "name": "product:retailer_part_no",
+            "content": "984856"
+        },
+        {
+            "name": "og:image",
+            "content": "https:\/\/static.komputronik.pl\/product-picture\/11\/TELKOM16506212321167998-1.jpg"
+        },
+        {
+            "name": "og:title",
+            "content": "Google Pixel 10 Pro XL 5G 16\/256GB Dual SIM Jade"
+        },
+        {
+            "name": "og:site_name",
+            "content": "Komputronik"
+        },
+        {
+            "name": "og:url",
+            "content": "https:\/\/www.komputronik.pl\/product\/984856\/telefon-google-pixel-10-pro-xl-5g-16-256gb-dual-sim-jade.html"
+        },
+        {
+            "name": "product:category",
+            "content": "Telefony i Smartwatche > Telefony i Smartfony"
+        },
+        {
+            "name": "product:price:amount",
+            "content": "5,499.00"
+        },
+        {
+            "name": "product:sale_price:amount",
+            "content": "5,499.00"
+        },
+        {
+            "name": "product:original_price:amount",
+            "content": "5,499.00"
+        }
+    ]
+}
