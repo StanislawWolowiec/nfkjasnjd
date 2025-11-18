@@ -49,6 +49,9 @@ body{
     flex-direction: row;
 }
 #obrazproduktu{
+    border: 1px, solid ,gainsboro;
+    border-radius: 15px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +66,8 @@ body{
     width: 33%;
 }
 #kupowanie{
+    border: 1px, solid ,gainsboro;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;

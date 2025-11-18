@@ -1,5 +1,5 @@
 async function loadData() {
-    const response = await fetch('./984856.json');
+    const response = await fetch('./802936.json');
     const data = await response.json();
 
     processData(data);
@@ -48,3 +48,7 @@ function processData(data) {
 }
 
 loadData();
+
+function click() {
+    console.log("makapaka")
+}
