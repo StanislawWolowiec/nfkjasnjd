@@ -1,5 +1,5 @@
-async function loadData() {
-    const response = await fetch('./802936.json');
+async function loadData(dataFile) {
+    const response = await fetch(dataFile);
     const data = await response.json();
 
     processData(data);
@@ -47,8 +47,17 @@ function processData(data) {
     spec.innerHTML = spectekst
 }
 
-loadData();
+let fileIndex = 1
+const dataFiles = ['802936.json','984856.json','991882.json']
+
+loadData(dataFiles[0]);
 
 function batonClick() {
-    console.log("makapaka")
+    loadData(dataFiles[fileIndex])
+    if(fileIndex == dataFiles.length - 1){
+        fileIndex = 0
+    }
+    else{
+        fileIndex += 1
+    }
 }
