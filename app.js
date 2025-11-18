@@ -49,6 +49,6 @@ function processData(data) {
 
 loadData();
 
-function click() {
+function batonClick() {
     console.log("makapaka")
 }
