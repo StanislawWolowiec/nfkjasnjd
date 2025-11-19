@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <?php
+    $conn = new mysqli('localhost','root','','komputa');
+
+    $totalRecords = ($conn -> query('select * from api'))->num_rows;
+    $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 1;
+    $nextId = $productId + 1;
+    if($nextId > $totalRecords){
+        $nextId = 1;
+    }
+    
+    $result = $conn -> query('select json from api where id = '.$productId.'');
+
+    if ($row = $result->fetch_assoc()) {
+        $jsonString = $row['json'];
+        //echo "JSON String: " . $jsonString;
+
+        $jsonData = json_decode($jsonString, true);
+        //print_r($jsonData);
+        
+    } 
+    else {
+        echo "No record found.";
+    }
+    ?>
+    <div class="header">
+        <div class="header2" style="width: 65%; justify-content: left;">
+            <img src="g/logo.svg" alt="">
+            <input type="text" class="searchbar">
+            <select name="" id=""><option value="">pączki</option><option value="">niepączki</option></select>
+            <button class="lupa"></button>
+        </div>
+        <div class="header2" style="width: 35%; justify-content: right;">
+            <button class="grejbaton"></button>
+            <button class="grejbaton"></button>
+            <button class="grejbaton"></button>
+            <button class="grejbaton"></button>
+            <button class="grejbaton"></button>
+        </div>
+    </div>
+    <div class="header" style="background-color: rgb(231, 231, 231);">
+        <p>kategoria1</p><p>kategoria2</p><p>kategoria3</p><p>kategoria4</p><p>kategoria5</p>
+    </div>
+    <h1 id="nazwaproduktu"><?php print($jsonData["basicInfo"]["name"]); ?></h1>   
+    <div id="main">
+        <div id="obrazproduktu">
+            <?php
+            print("<img src='".$jsonData["gallery"]["pictures"][0]["sizeXL"]["url"]."'alt='' id='obrazek'>");
+            ?>
+        </div>
+        <div id="opisproduktu">
+            <div id="kody">
+                <h5>Kody:</h5>
+                <ul>
+                <?php
+                foreach ($jsonData["codes"] as $codeTable) {
+                    print("<li>".$codeTable["type"].": ".$codeTable["code"]."</li>");
+                }
+                ?>
+                </ul>
+                
+            </div>
+            <div id="spece">
+                <h4>Specyfikacje:</h4>
+                <?php
+                $rozKategoria = 0;
+                foreach ($jsonData["specification"] as $specTable) {
+                    print("<h5>".$specTable["name"]."</h5>");
+                    print("<button class='"."rozButton".$rozKategoria."' onclick='roz(".$rozKategoria.")'>Rozwiń</button>");
+
+                    print("<ul class='"."rozLista rozLista".$rozKategoria."'>");
+                    foreach ($specTable["attributes"] as $attribute) {
+                        print("<li>");
+                        print($attribute["name"]);
+                        print(": ");
+                        print($attribute["values"][0]["name"]);
+                        print("</li>");
+                    }
+                    print("</ul>");
+                    $rozKategoria += 1;
+                }
+                ?>
+            </div>
+        </div>
+        <div id="kupowanie">
+            <p id="cena">cena</p>
+            <?php print("<a href='?productId=".$nextId."'>"); ?>
+            <button id="kup" type="button" onclick="batonClick()"><h1 style="color:white; font-style: bold;">kup</h1></button>
+            <?php print("</a>"); ?>
+            <p id="dostawa">dostawa</p>
+        </div>
+    </div>
+    <div class="opis">
+        <?php
+        foreach ($jsonData["descriptions"] as $desc) {
+            print($desc);
+        }
+        ?>
+    </div>
+    <script src="przyciski.js"></script>
+    <?php
+    $conn -> close()
+    ?>
+</body>
+
+</html>
