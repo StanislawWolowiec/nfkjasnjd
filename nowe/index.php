@@ -14,8 +14,11 @@
 
     $totalRecords = ($conn -> query('select * from api'))->num_rows;
     $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 1;
+    if($productId > $totalRecords or $productId < 1){
+        $productId = 1;
+    }
     $nextId = $productId + 1;
-    if($nextId > $totalRecords){
+    if($nextId > $totalRecords or $nextId < 1){
         $nextId = 1;
     }
     
@@ -93,7 +96,7 @@
             </div>
         </div>
         <div id="kupowanie">
-            <p id="cena">cena</p>
+            <h1 id="cena"><?php print($jsonData["price"]["final"]["gross"]["formatted"]) ?></h1>
             <?php print("<a href='?productId=".$nextId."'>"); ?>
             <button id="kup" type="button" onclick="batonClick()"><h1 style="color:white; font-style: bold;">kup</h1></button>
             <?php print("</a>"); ?>
