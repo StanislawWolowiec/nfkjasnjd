@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="biblioteka.php">bibiloteka</a>
     <h2>LOSOWE</h2>
     <form action="dodawanie.php" method="POST">
         URL: <input type="text" name="url" id="losowe" style="width:375px"><br>
