@@ -69,7 +69,7 @@
         </div>
     </div>
     <div class="header" style="background-color: rgb(231, 231, 231);">
-        <p>kategoria1</p><p>kategoria2</p><p>kategoria3</p><p>kategoria4</p><p>kategoria5</p>
+        <p><a href="biblioteka.php">biblioteka</a></p><p><a href="dane.php">dodawanie danych</a></p><p>kategoria3</p><p>kategoria4</p><p>kategoria5</p>
     </div>
     <h1 id="nazwaproduktu"><?php print($jsonData["basicInfo"]["name"]); ?></h1>   
     <div id="main">

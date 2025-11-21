@@ -114,3 +114,22 @@ body{
 .rozLista{
     display: none;
 }
+.duzygrid{
+    width: 75%;
+    height: 75vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+}
+.bibliotekaProdukt{
+    width: 200px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.bibliotekaProdukt img{
+    height: 100px;
+}
