@@ -10,21 +10,38 @@
 
 <body>
     <?php
-    $conn = new mysqli('localhost','root','','komputa');
 
-    $totalRecords = ($conn -> query('select * from api'))->num_rows;
-    $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 1;
-    if($productId > $totalRecords or $productId < 1){
-        $productId = 1;
+    try {
+        $DBH = new PDO("mysql:host=localhost;dbname=komputa", "root", "");
+        $DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+
+        $STH = $DBH->query('select id from api');
+        $ids = $STH->fetchAll(PDO::FETCH_COLUMN);
+
+        $STH = $DBH->query('select * from api');
+        $totalRecords = $STH->rowCount() - 1;
+    }
+    catch(PDOException $e) {
+        echo $e->getMessage();
+    }
+
+    $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 0;
+    if($productId > $totalRecords or $productId < 0){
+        $productId = 0;
     }
     $nextId = $productId + 1;
-    if($nextId > $totalRecords or $nextId < 1){
-        $nextId = 1;
+    if($nextId > $totalRecords or $nextId < 0){
+        $nextId = 0;
     }
     
-    $result = $conn -> query('select json from api where id = '.$productId.'');
+    try {
+        $STH = $DBH->query('select json from api where id = '.$ids[$productId].'');
+        $STH->setFetchMode(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+    }
 
-    if ($row = $result->fetch_assoc()) {
+    if ($row = $STH->fetch()) {
         $jsonString = $row['json'];
         //echo "JSON String: " . $jsonString;
 
@@ -112,7 +129,7 @@
     </div>
     <script src="przyciski.js"></script>
     <?php
-    $conn -> close()
+    $DBH = null;
     ?>
 </body>
 
