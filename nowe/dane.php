@@ -24,5 +24,9 @@
         document.querySelector("#losowe").value = url
     }
     </script>
+    <h2>Wyczyść całą bazę</h2>
+    <form action="usunBaza.php">
+        <input type="submit" value="tak">
+    </form>
 </body>
 </html>
