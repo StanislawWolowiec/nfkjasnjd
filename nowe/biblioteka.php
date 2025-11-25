@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="dane.php">dodawanie danych</a>
     <div class="duzygrid">
         <?php
         try {
@@ -19,9 +20,11 @@
             $i = 0;
             while($row = $STH->fetch()) {
                 $jsonrow = json_decode($row['json'], true);
+                $id = json_decode($row['id'], true);
                 print("<a href='index.php?productId=".$i."'><div class='bibliotekaProdukt'>");
                 print("<img src='".$jsonrow["gallery"]["pictures"][0]["sizeXL"]["url"]."' alt=''>");
                 print("<h5>".$jsonrow["basicInfo"]["name"]."</h5>");
+                print("<form action='usunJedno.php' method='post'><input type='hidden' name='id' value=".$id."><input type='submit' value='x'></form>");
                 print("</div></a>");
                 $i += 1;
             }
