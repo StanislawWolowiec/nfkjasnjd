@@ -12,7 +12,7 @@ else {
         $response = curl_exec($ch);
         curl_close($ch);
 
-        if($response == '{"validUrl":"","code":410}'){
+        if($response == '{"validUrl":"","code":410}' or strlen($response) < 200){
             header("Location: dane.php");
         }
         else {
@@ -27,6 +27,6 @@ else {
         catch(PDOException $e) {
         echo $e->getMessage();
     }
-    header("Location: dane.php");
 }
+header("Location: dane.php");
 ?>
