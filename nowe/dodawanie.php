@@ -4,7 +4,6 @@ if(!isset($_POST["url"])){
 }
 else {
     try {
-        //200
         $url = $_POST["url"];
 
         $ch = curl_init($url);
@@ -14,7 +13,6 @@ else {
         curl_close($ch);
 
         if($response == '{"validUrl":"","code":410}' or strlen($response) < 200){
-            //get błąd
             header("Location: dane.php");
         }
         else {

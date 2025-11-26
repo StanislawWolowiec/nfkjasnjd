@@ -16,7 +16,9 @@
     
     <script>
     function losuj() {
-        let range = [820942, 909964]
+        //old min 820942
+        //old max 909964
+        let range = [890942, 909964]
         let min = range[0]
         let max = range[1]
         let randNum = Math.floor(Math.random() * (max - min + 1)) + min;
