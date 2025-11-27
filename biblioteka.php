@@ -24,7 +24,7 @@
                 print("<a href='index.php?productId=".$i."'><div class='bibliotekaProdukt'>");
                 print("<img src='".$jsonrow["gallery"]["pictures"][0]["sizeXL"]["url"]."' alt=''>");
                 print("<h5>".$jsonrow["basicInfo"]["name"]."</h5>");
-                print("<form action='usunJedno.php' method='post'><input type='hidden' name='id' value=".$id."><input type='submit' value='x'></form>");
+                print("<form action='skrypty/usunJedno.php' method='post'><input type='hidden' name='id' value=".$id."><input type='submit' value='x'></form>");
                 print("</div></a>");
                 $i += 1;
             }

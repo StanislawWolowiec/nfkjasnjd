@@ -14,7 +14,7 @@ else {
         curl_close($ch);
 
         if($status !== 200){
-            header("Location: dane.php");
+            header("Location: ../dane.php");
         }
         else {
             $DBH = new PDO("mysql:host=localhost;dbname=komputa", "root", "");
@@ -29,5 +29,5 @@ else {
         echo $e->getMessage();
     }
 }
-header("Location: dane.php");
+header("Location: ../dane.php");
 ?>

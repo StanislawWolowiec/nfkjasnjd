@@ -10,5 +10,5 @@
         catch(PDOException $e) {
         echo $e->getMessage();
     }
-    header("Location: biblioteka.php");
+    header("Location: ../biblioteka.php");
 ?>

@@ -55,7 +55,7 @@
     ?>
     <div class="header">
         <div class="header2" style="width: 65%; justify-content: left;">
-            <img src="g/logo.svg" alt="">
+            <img src="grafika/logo.svg" alt="">
             <input type="text" class="searchbar">
             <select name="" id=""><option value="">pączki</option><option value="">niepączki</option></select>
             <button class="lupa"></button>

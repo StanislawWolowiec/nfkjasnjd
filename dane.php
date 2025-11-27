@@ -8,7 +8,7 @@
 <body>
     <a href="biblioteka.php">bibiloteka</a>
     <h2>LOSOWE</h2>
-    <form action="dodawanie.php" method="POST">
+    <form action="skrypty/dodawanie.php" method="POST">
         URL: <input type="text" name="url" id="losowe" style="width:375px"><br>
         <input type="submit">
     </form>
@@ -27,7 +27,7 @@
     }
     </script>
     <h2>Wyczyść całą bazę</h2>
-    <form action="usunBaza.php">
+    <form action="skrypty/usunBaza.php">
         <input type="submit" value="tak">
     </form>
 </body>
