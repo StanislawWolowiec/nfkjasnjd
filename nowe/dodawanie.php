@@ -10,9 +10,10 @@ else {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         $response = curl_exec($ch);
+        $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
 
-        if($response == '{"validUrl":"","code":410}' or strlen($response) < 200){
+        if($status !== 200){
             header("Location: dane.php");
         }
         else {
