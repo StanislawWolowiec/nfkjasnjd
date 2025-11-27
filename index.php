@@ -127,7 +127,7 @@
         }
         ?>
     </div>
-    <script src="przyciski.js"></script>
+    <script src="skrypty/przyciski.js"></script>
     <?php
     $DBH = null;
     ?>
