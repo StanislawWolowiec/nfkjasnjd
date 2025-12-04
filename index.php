@@ -25,17 +25,17 @@
         echo $e->getMessage();
     }
 
-    $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 0;
-    if($productId > $totalRecords or $productId < 0){
-        $productId = 0;
+    $productId = isset($_GET['productId']) ? intval($_GET['productId']) : 1;
+    if ($productId > $totalRecords or $productId < 1) {
+        $productId = 1;
     }
     $nextId = $productId + 1;
-    if($nextId > $totalRecords or $nextId < 0){
-        $nextId = 0;
+    if ($nextId > $totalRecords or $nextId < 1) {
+        $nextId = 1;
     }
     
     try {
-        $STH = $DBH->query('select json from wczytane where id = ' . $ids[$productId] . '');
+        $STH = $DBH->query('select json from wczytane where id = ' . $productId . '');
         $STH->setFetchMode(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
         echo $e->getMessage();
@@ -82,7 +82,11 @@
         </div>
     </div>
     <div class="header" style="background-color: rgb(231, 231, 231);">
-        <p><a href="biblioteka.php">biblioteka</a></p><p><a href="dane.php">dodawanie danych</a></p><p>kategoria3</p><p>kategoria4</p><p>kategoria5</p>
+        <p><a href="biblioteka.php">biblioteka</a></p>
+        <p><a href="dane.php">dodawanie danych</a></p>
+        <p><a href="kategorie.php">wyświetl kategorie</a></p>
+        <p>kategoria4</p>
+        <p>kategoria5</p>
     </div>
     <h1 id="nazwaproduktu"><?php print($jsonData["basicInfo"]["name"]); ?></h1>   
     <div id="main">

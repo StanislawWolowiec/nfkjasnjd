@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteka</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <?php
     include("skrypty/funkcje.php");
     $DBH = new PDO("mysql:host=localhost;dbname=komputa", "root", "");
     $DBH->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     ?>
-    
+
     <div class="header">
         <div class="header2" style="width: 65%; justify-content: left;">
             <img src="grafika/logo.svg" alt="">
             <form action="skrypty/przekierowanie.php" method="post" class="searchForm">
                 <input type="text" name="nazwa" class="searchbar">
-                <input type="hidden" name="productId" value="<?php print ("biblioteka"); ?>">
+                <input type="hidden" name="productId" value="<?php print ("kategorie"); ?>">
                 <select name="kategoria" id="">
                     <option value="">wybierz kategorię</option>
                     <?php
@@ -52,37 +54,23 @@
     <div class="duzygrid">
         <?php
         try {
-            
+            $kategorie = DB($DBH, "SELECT kategoria FROM wczytane", false);
+            $kategorie = $kategorie->fetchAll(PDO::FETCH_COLUMN);
+            $kategorie = array_unique($kategorie);
+            $kategorie = array_values($kategorie);
 
-            $STH = "";
-
-            if (isset($_GET["nazwa"]) and isset($_GET["kategoria"])) {
-                $STH = DB($DBH, "SELECT * FROM wczytane WHERE nazwa LIKE ? AND kategoria = ?", array($_GET["nazwa"] . "%", $_GET["kategoria"]));
-            } else if (isset($_GET["nazwa"])) {
-                $STH = DB($DBH, "SELECT * FROM wczytane WHERE nazwa LIKE ?", array($_GET["nazwa"] . "%"));
-            } else if (isset($_GET["kategoria"])) {
-                $STH = DB($DBH, "SELECT * FROM wczytane WHERE kategoria = ?", array($_GET["kategoria"]));
-            } else {
-                $STH = DB($DBH, "SELECT * FROM wczytane", false);
+            for ($i = 0; $i < count($kategorie); $i++) {
+                print ("<a href='biblioteka.php?kategoria=" . $kategorie[$i] . "'>");
+                print ("<div class='bibliotekaProdukt'>");
+                print ("<h5>" . $kategorie[$i] . "</h5>");
+                print ("</div>");
+                print ("</a>");
             }
-            $STH->setFetchMode(PDO::FETCH_ASSOC);;
-
-            $i = 0;
-            while($row = $STH->fetch()) {
-                $jsonrow = json_decode($row['json'], true);
-                $id = json_decode($row['id'], true);
-                print ("<a href='index.php?productId=" . $id . "'><div class='bibliotekaProdukt'>");
-                print("<img src='".$jsonrow["gallery"]["pictures"][0]["sizeXL"]["url"]."' alt=''>");
-                print("<h5>".$jsonrow["basicInfo"]["name"]."</h5>");
-                print ("<form action='skrypty/usuwanieDanych.php' method='post'><input type='hidden' name='id' value=" . $id . "><input type='hidden' name='Typ' value='pojedynczy'><input type='hidden' name='back' value='" . $_SERVER['REQUEST_URI'] . "'><input type='submit' value='x'></form>");
-                print("</div></a>");
-                $i += 1;
-            }
-        }
-        catch(PDOException $e) {
+        } catch (PDOException $e) {
             echo $e->getMessage();
         }
         ?>
     </div>
 </body>
+
 </html>

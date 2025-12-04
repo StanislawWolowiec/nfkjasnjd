@@ -29,7 +29,10 @@ function DBProdukt($DBH, $jsonString, $url)
 {
     $jsonData = json_decode($jsonString, true);
     $nazwa = $jsonData["basicInfo"]["name"];
-    $kategoria = $jsonData["basicInfo"]["objectType"];
+    $kategoria = $jsonData["breadcrumbs"][2]["name"] ?? null;
+    if ($kategoria == null) {
+        $kategoria = "brak kategorii";
+    }
     $parametry = array($jsonString, $url, $nazwa, $kategoria);
     DB($DBH, "INSERT INTO `wczytane`(`json`, `url`, `nazwa`, `kategoria`) VALUES (?,?,?,?);", $parametry);
 }

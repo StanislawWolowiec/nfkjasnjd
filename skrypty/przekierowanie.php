@@ -14,7 +14,16 @@ if (!empty($_POST["kategoria"])) {
 if (!empty($params)) {
     $url .= "?" . http_build_query($params);
 } else {
-    $url = "../index.php?productId=" . $_POST["productId"];
+    if ($_POST["productId"] == "biblioteka") {
+        $url = "../biblioteka.php";
+    } else if ($_POST["productId"] == "dane") {
+        $url = "../dane.php";
+    } else if ($_POST["productId"] == "kategorie") {
+        $url = "../kategorie.php";
+    } else {
+        $url = "../index.php?productId=" . $_POST["productId"];
+    }
+
 }
 print ($url);
 header("Location: $url");

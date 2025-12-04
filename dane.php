@@ -5,87 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin: 0;
-
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        a {
-            color: blue;
-            font-weight: bold;
-        }
-
-        main {
-            width: 700px;
-            height: 700px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 15px;
-        }
-
-        header {
-            width: 100%;
-            height: 30px;
-            margin-bottom: 1rem;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-            background-color: lightgray;
-            border-bottom: 5px solid grey;
-        }
-
-        .panel {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            background-color: lightgray;
-            border: 5px solid grey;
-            border-radius: 5px;
-
-            padding: 10px;
-        }
-
-        .inpanel {
-            height: 90%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-    <header>
-        <a href="biblioteka.php">bibiloteka</a>
-    </header>
     <?php
-    if (isset($_GET["customStatus"])) {
-        if ($_GET["customStatus"] !== null) {
-            print ("<h1>" . $_GET["customStatus"] . "</h1>");
-        } else {
-            print ("<h1>Nie udało się</h1>");
-        }
-    }
+    include("skrypty/funkcje.php");
+    $DBH = new PDO("mysql:host=localhost;dbname=komputa", "root", "");
+    $DBH->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     ?>
+
+    <div class="header">
+        <div class="header2" style="width: 65%; justify-content: left;">
+            <img src="grafika/logo.svg" alt="">
+            <form action="skrypty/przekierowanie.php" method="post" class="searchForm">
+                <input type="text" name="nazwa" class="searchbar">
+                <input type="hidden" name="productId" value="<?php print ("dane"); ?>">
+                <select name="kategoria" id="">
+                    <option value="">wybierz kategorię</option>
+                    <?php
+                    $kategorie = DB($DBH, "SELECT kategoria FROM wczytane", false);
+                    $kategorie = $kategorie->fetchAll(PDO::FETCH_COLUMN);
+                    $kategorie = array_unique($kategorie);
+                    $kategorie = array_values($kategorie);
+                    for ($i = 0; $i < count($kategorie); $i++) {
+                        print ("<option name='' value='" . $kategorie[$i] . "'>" . $kategorie[$i] . "</option>");
+                    }
+                    ?>
+                </select>
+                <button class="lupa"></button>
+                </form>
+                </div>
+                <div class="header2" style="width: 35%; justify-content: right;">
+                    <button class="grejbaton"></button>
+                    <button class="grejbaton"></button>
+                    <button class="grejbaton"></button>
+                    <button class="grejbaton"></button>
+                    <button class="grejbaton"></button>
+                </div>
+                </div>
+                <div class="header" style="background-color: rgb(231, 231, 231);">
+                    <p><a href="biblioteka.php">biblioteka</a></p>
+                    <p><a href="dane.php">dodawanie danych</a></p>
+                    <p><a href="kategorie.php">wyświetl kategorie</a></p>
+                    <p>kategoria4</p>
+                    <p>kategoria5</p>
+                </div>
+
     <main>
         <div class="panel">
             <h1>Dodaj losowe</h1>
