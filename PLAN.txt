@@ -1,0 +1,5 @@
+1. użyć własnych funkcji w index i biblioteka
+2. dodać do biblioteki aby mogła wyświetlać konkretną kategorię używając get
+. sprawić aby wyszukiwanie po nazwie działało
+. dodać stronę z samymi kategoriami
+. zmienić styl danych i biblioteki aby pasowały do strony

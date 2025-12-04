@@ -10,15 +10,15 @@
 
 <body>
     <?php
-
+    include("skrypty/funkcje.php");
     try {
         $DBH = new PDO("mysql:host=localhost;dbname=komputa", "root", "");
         $DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
-        $STH = $DBH->query('select id from api');
+        $STH = $DBH->query('select id from wczytane');
         $ids = $STH->fetchAll(PDO::FETCH_COLUMN);
 
-        $STH = $DBH->query('select * from api');
+        $STH = $DBH->query('select * from wczytane');
         $totalRecords = $STH->rowCount() - 1;
     }
     catch(PDOException $e) {
@@ -35,7 +35,7 @@
     }
     
     try {
-        $STH = $DBH->query('select json from api where id = '.$ids[$productId].'');
+        $STH = $DBH->query('select json from wczytane where id = ' . $ids[$productId] . '');
         $STH->setFetchMode(PDO::FETCH_ASSOC);
     } catch (PDOException $e) {
         echo $e->getMessage();
@@ -56,9 +56,22 @@
     <div class="header">
         <div class="header2" style="width: 65%; justify-content: left;">
             <img src="grafika/logo.svg" alt="">
-            <input type="text" class="searchbar">
-            <select name="" id=""><option value="">pączki</option><option value="">niepączki</option></select>
-            <button class="lupa"></button>
+            <form action="skrypty/przekierowanie.php" method="post" class="searchForm">
+                <input type="text" name="nazwa" class="searchbar">
+                <input type="hidden" name="productId" value="<?php print ($productId); ?>">
+                <select name="kategoria" id="">
+                    <option value="">wybierz kategorię</option>
+                    <?php
+                    $kategorie = DB($DBH, "SELECT kategoria FROM wczytane", false);
+                    $kategorie = $kategorie->fetchAll(PDO::FETCH_COLUMN);
+                    $kategorie = array_unique($kategorie);
+                    for ($i = 0; $i < count($kategorie); $i++) {
+                        print ("<option name='' value='" . $kategorie[$i] . "'>" . $kategorie[$i] . "</option>");
+                    }
+                    ?>
+                </select>
+                <button class="lupa"></button>
+            </form>
         </div>
         <div class="header2" style="width: 35%; justify-content: right;">
             <button class="grejbaton"></button>

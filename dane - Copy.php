@@ -88,30 +88,46 @@
     ?>
     <main>
         <div class="panel">
-            <h1>Dodaj losowe</h1>
+            <h1>Dodaj dane</h1>
             <div class="inpanel">
-                <form action="skrypty/dodawanieDanych.php" method="POST">
-                    <button name="Typ" value="losowe" type="submit">Dodaj</button>
-                    <input type="number" name="LiczbaLosowych" value="1" style="width: 15%;">
+                <h2>Losowe</h2>
+                <form action="skrypty/dodawanie.php" method="POST">
+                    <input type="hidden" name="autoLos" value="true">
+                    <span style="align-self: flex-start;"><input type="radio" name="autoLosTyp" value="zapisany"> Użyj
+                        zapisanego
+                        produktu</span>
+                    <span style="align-self: flex-start;"><input type="radio" name="autoLosTyp" value="nowy"> Wyszukaj
+                        nowego</span>
+                    <span><input type="number" name="autoLosIle" value="1" style="width: 10%;"> Ile razy</span>
+                    <input type="submit" value="Wyślij">
                 </form>
+                <h2>Manualnie</h2>
+                <form action="skrypty/dodawanie.php" method="POST">
+                    <input type="hidden" name="manLos" value="true">
+                    <span>URL: <input type="text" name="manLosUrl" value="<?php if (isset($_GET['returnUrl'])) {
+                        print ($_GET['returnUrl']);
+                    } ?>"></span>
+                    <span>
+                        <button name="manLosTyp" value="nowy" type="submit">wylosuj nowe</button>
+                        <button name="manLosTyp" value="zapisany" type="submit">wylosuj zapisane</button>
+                    </span>
+                    <button name="manLosTyp" type="submit" value="wyslij">Wyślij</button>
+                    </form>
+                    </div>
+                    </div>
+                    <div class="panel">
+                        <h1>Wyczyść bazę</h1>
+                        <div class="inpanel">
+                            <form action="skrypty/dodawanie.php" method="post">
+                                <button name="usunBaza" type="submit" value="zaladowane">Wyczyść Załadowane</button>
+                                <button name="usunBaza" type="submit" value="zapisane">Wyczyśc Zapisane</button>
+                            </form>
             </div>
         </div>
         <div class="panel">
-            <h1>Dodaj poprzez url</h1>
+            <h1>Wyświetl Bazę</h1>
             <div class="inpanel">
-                <form action="skrypty/dodawanieDanych.php" method="POST">
-                    <button name="Typ" value="url" type="submit">Dodaj</button>
-                    <input type="text" name="url" value="" style="width: 100%;">
-                </form>
-            </div>
-        </div>
-        <div class="panel">
-            <h1>Wyczyść bazę</h1>
-            <div class="inpanel">
-                <form action="skrypty/usuwanieDanych.php" method="POST">
-                    <input type="hidden" name="back" value="<?php print ($_SERVER['REQUEST_URI']); ?>">
-                    <button name="Typ" value="wszystko" type="submit">Wyczyść</button>
-                </form>
+
             </div>
         </div>
         <div class="panel">
