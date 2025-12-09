@@ -152,3 +152,50 @@ body {
 .bibliotekaProdukt img {
     height: 100px;
 }
+.koszyk {
+    display: none;
+
+    position: fixed;
+    top: 100px;
+    right: 125px;
+
+    height: 500px;
+    width: 350px;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.467);
+
+    border: 5px solid gainsboro;
+    border-radius: 15px;
+    background-color: rgb(228, 228, 228);
+}
+
+.koszyk img {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    border: 1px none black;
+    border-radius: 15px;
+}
+
+.koszyk p {
+    font-size: 10px;
+}
+
+.koszykprodukt {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    /* list-style-position: inside; */
+    overflow: hidden;
+    overflow-y: scroll;
+}
