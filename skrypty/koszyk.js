@@ -1,5 +1,5 @@
 koszykObj = document.querySelector(".koszyk")
-if (koszykObj.style.display = "flex") {
+if (koszykObj.style.display == "flex") {
     koszykOtwarty = true
 }
 else {
